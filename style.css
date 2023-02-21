@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f; 
+
+}
+body
+{
+    padding: 30px 30px;
+}
+/* -------------------------------------------------nav bar----------------------------------------------- */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    
+    
+}
+                                                        /* navbar left column */
+.leftcolumn
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.hamburger .fa
+{
+    font-size: 30px;
+    color: white;
+}
+.youtubelogo img
+{
+    width: 130px;
+    padding-left: 30px;
+}
+
+                                                        /* nav bar middle */
+.middle
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+.middle .icon .fas
+{
+    background-color: #222222;
+    padding-left: 5px;
+    
+    
+}
+.middle .fas
+{
+    color: white;
+    padding-left: 40px;
+    font-size: 30px;
+    transition: .4s;
+    cursor: pointer;
+    
+}
+.middle input
+{
+    flex: 1;
+    border: 1px solid #222222;
+    width: 500px;
+    height: 62px;
+    padding: 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.middle button
+{
+    background-color: #222222;
+    border: 0;
+    /* outline: 0; */
+    color: white;
+    font-size: 16px;
+    cursor:pointer;
+    padding: 15px 30px;
+}
+
+
+                                            /* right column */
+.rightcolumn
+{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.rightcolumn .fas
+{
+    color: white;
+    padding-left: 40px;
+    font-size: 30px;
+    /* background-color: #181818; */
+    cursor: pointer;
+    /* width: 5px; */
+}
+
+
